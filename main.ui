@@ -6,17 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>615</width>
-    <height>424</height>
+    <width>676</width>
+    <height>516</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Hot Coffee</string>
+   <string>Coffee</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
     <item row="0" column="0">
-     <widget class="QTableView" name="table"/>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QTableWidget" name="table"/>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
