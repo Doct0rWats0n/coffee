@@ -20,6 +20,13 @@
       <item row="0" column="0">
        <widget class="QTableWidget" name="table"/>
       </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="edit_button">
+        <property name="text">
+         <string>Редактировать</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </item>
    </layout>
